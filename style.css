@@ -1,0 +1,732 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: arial;
+}
+.header{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(4, 7, 31);
+}
+.mobile{
+    position: absolute;
+    color: white;
+    top: 11px;
+    left: 3.5%;
+}
+.mail{
+    position: absolute;
+    color: white;
+    left: 13.5%;
+    top: 11px;
+    font-size: 17px;
+}
+li{
+    display: inline-flex;
+}
+.icon{
+    position: absolute;
+    height: 20px;
+    width: 9%;
+    left: 85%;
+    top: 12px;
+}
+a{
+    margin-left: 20px;
+    color: white;
+}
+.icon a i{
+    font-size: 18px;
+}
+.head{
+    
+    height: 100px;
+    width: 100%;
+    background-color: rgb(242, 251, 251);
+}
+.logo{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    display: inline-flex;
+}
+.logo .log0{
+    margin-top: 0px;
+    height: 80px;
+    width: 80px;
+    margin-left: 40px;
+    
+}
+.head .n1{
+    display: inline-flex;
+    margin-left: 9%;
+    margin-top: 3px;
+    font-size: 30px;
+    color: rgb(5, 85, 152);
+    
+}
+.head .n2{
+    width: 23%;
+    margin-left: 9%;
+    
+    font-size: 20px;
+    line-height: 0.7;
+    color: rgb(5, 85, 152);
+}
+.head .n3{
+    margin-left: 11%;
+    line-height: 1.5;
+    font-weight: bold;
+    color: red;
+}
+.head .n4{
+    border: 1px solid black;
+    width: 18%;
+    margin-left: 9%;
+    
+}
+.head .n5{
+    margin-left: 10.6%;
+    font-size: 10px;
+    line-height: 2;
+}
+
+.log1{
+    height: 95px;
+    width: 120px;
+    margin-left: 60px;
+    position: relative;
+    left: 40%;
+    top: 2.5px;
+}
+.main-head{
+    
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+html{
+    scroll-padding-top: 50px;
+}
+.navlinks{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(4, 7, 31);  
+}
+.navlinks a{
+    position: relative;
+    top: 16px;
+    margin-left: 100px;
+    left: 5%;
+    padding: 8px 10px;
+    
+}
+.navlinks a:hover{
+    background-color: rgb(4, 110, 40);
+    border-radius: 4px;
+}
+
+.Home{
+    height: 694.5px;
+    width: 100%;
+    background-color: rgb(243, 244, 245);
+    
+}
+
+
+.slider{
+    overflow: hidden;
+    
+}
+.slide1{
+    
+    height: 555px;
+    width: 20%;
+}
+.slider figure{
+    display: flex;
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s main infinite;
+    z-index: 1;
+}
+@keyframes main{
+20% {
+    left: 0;
+}
+40% {
+    left: -100%;
+}
+25% {
+    left: -100%;
+}
+45%{
+    left: -100%;
+}
+50% {
+    left: -200%;
+}
+70%{
+    left: -200%;
+}
+75%{
+    left: -300%;
+}
+95%{
+    left: -300%;
+}
+}
+    
+
+.open{
+    height: 139.5px;
+    width: 20%;
+    display: flex;
+    margin-left: 40%;
+}
+
+.About{
+    height: 694.5px;
+    width: 100%;
+    background-color: bisque;
+    
+}
+.About-card{
+    height: 393px;
+    width: 100%;
+    display: flex; 
+    
+}
+.about-card0{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    
+}
+.about-card1{
+    height: 200px;
+    width: 25%;
+    
+    background-color: white;
+    margin-left: 95px;
+    
+    margin-top: 100px;
+}
+.about-card2{
+    height: 200px;
+    width: 25%;
+    
+    background-color: white;
+    margin-left: 95px;
+    
+}
+.about-card1 img{
+    height: 40%;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.about-card2 img{
+    height: 40%;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.about-card1 h1{
+    text-align: center;
+    
+    margin-top: 30px;
+}
+.about-card2 h1{
+    text-align: center;
+    
+    margin-top: 30px;
+}
+.about-card1 p{
+    margin-left: 50%;
+    margin-right: 20px;
+    text-align: left;
+    margin-top: -90px;  
+}
+.about-card2 p{
+    margin-left: 50%;
+    margin-right: 20px;
+    text-align: left;
+    margin-top: -90px;  
+}
+
+.Academics{
+    height: 694.5px;
+    width: 100%;
+    background-color: rgb(114, 159, 185);
+    
+}
+.academy{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    
+}
+.jack{
+    height: 550px;
+    width: 60%;
+    margin-top: 60px;
+    
+    
+}
+
+.ahana{
+    height: 40px;
+    width: 70%;
+    margin-left: 22%;
+    text-align: center;
+    
+    display: flex;
+
+}
+
+.Academics .ahana h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+ .gym{
+    height: 410px;
+    width: 70%;
+    margin-left: 13.5%;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.slider-gym{
+    overflow: hidden;
+    border: 2px solid rgb(12, 12, 12);
+}
+
+.gym1{
+    height: 370px;
+    width: 210px;
+    text-align:center;
+    margin-top: 25px;
+    margin-left: 90px;
+    
+    
+}
+
+.gym1 img{
+    
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(12, 12, 12);
+    margin-top: 10px;
+}
+.stu-name{
+    height: 100px;
+    width: 200px;
+    margin-top: 5px;
+    background-color: rgb(166, 40, 114);
+    
+}
+.stu-name h1{
+    font-family: Geneva;
+    font-size: 25px;
+    padding-top: 10px;
+    color: white;
+}
+.stu-name h2{
+    font-family: cochin;
+    font-size: 17px;
+    color: white;
+}
+.stu-name p{
+    font-family: Cochin;
+    color: white;
+    
+}
+
+.gym-container{
+    display: flex;
+    position: relative;
+    width:100%;
+    animation: 20s gym-container infinite;
+    transition: 1ms;
+}
+@keyframes gym-container{
+    0%{
+        margin-left: -2%;
+    }
+    15%{
+        margin-left: -2%;
+    }
+    20%{
+        margin-left: -94%;
+    }
+    35%{
+        margin-left: -94%;
+    }
+    40%{
+        margin-left: -185%;
+    }
+    55%{
+        margin-left: -185%;
+    }
+    
+}
+.courses{
+    height: 490px;
+    width: 25%;
+    background-color: rgb(220, 196, 167);
+    margin-left: 65%;
+    margin-top: 80px;
+    position: absolute;
+    border: 3px solid black;
+    
+}
+.tit-main{
+    height: 40px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    
+}
+.tit-main h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'george';
+}
+.course-border{
+    border: 2px solid black;
+}
+.dept{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(172, 12, 90);
+    margin-top: 20px;
+    
+    
+}
+.mar1{
+    height: 150px;
+    width: 90%;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    
+}
+.mar1 h1{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: black;
+}
+.dept1{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(172, 12, 90);
+
+    
+}
+.mar2{
+    height: 150px;
+    width: 90%;
+    margin-top: 10px;
+    border: 2px solid black;
+    
+}
+.mar2 h1{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: black;
+}
+.Gallery{
+    height: 695px;
+    width: 100%;
+    background-color: rgb(225, 196, 168);
+    display: flex;
+}
+.sub-gallery{
+    height: 680px;
+    width: 100%;
+    
+    
+    margin-top: 10px;
+}
+.Gallery .title{
+    height: 40px;
+    width: 30%;
+    
+    margin-left: 35%;
+    
+    margin-top: 20px;
+}
+.Gallery .title h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Gallery .main-gallery{
+    height: 580px;
+    width: 100%;
+    
+    
+    
+}
+.Gallery .main-gallery .gallery-pic1{
+    height: 250px;
+    width: 100%;
+    
+    display: flex;
+    margin-left: 0%;
+    margin-top: 20px;
+}
+.gallery-pic1 img{
+    height: 80%;
+    width: 23%;
+    margin-top: 25px;
+    margin-left: 23px;
+    border: 2px solid white;
+}
+.Gallery .main-gallery .gallery-pic2{
+    height: 250px;
+    width: 100%;
+    
+    display: flex;
+    margin-left: 0%;
+    margin-top: 30px;
+}
+.gallery-pic2 img{
+    height: 80%;
+    width: 23%;
+    margin-top: 25px;
+    margin-left: 23px;
+    border: 2px solid white;
+}
+
+
+.Placements{
+    height: 695px;
+    width: 100%;
+    background-color: rgb(114, 159, 185);
+    display: flex;
+}
+.sub-rec{
+    height: 680px;
+    width: 100%;
+    
+    
+    margin-top: 10px;
+}
+.Placements .title{
+    height: 40px;
+    width: 30%;
+    
+    margin-left: 35%;
+    
+    margin-top: 50px;
+}
+.Placements .title h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.carousel-box{
+    height: 250px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 120px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+.rec-slide1{
+    height: 200px;
+    width: 100%;
+}
+.Placements .rec-slide1 img{
+    height: 100%;
+    width: 300px;
+    float: left;
+    margin-left: 80px;
+}
+
+
+.rec-slider{
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 200%;
+    margin-top: 25px;
+    left: 0;
+    animation: 20s rec-slider infinite;
+    z-index: 1;
+}
+
+@keyframes rec-slider{
+    0% {
+        left: 0%;
+    }
+    15% {
+        left: 0%;
+    }
+    20%{
+        left: -94.6%;
+    }
+    35%{
+        left: -94.6%;
+    }
+    40%{
+        left: -189.1%;
+    }
+    55%{
+        left: -189.1%;
+    }
+    60%{
+        left: -283.8%;
+    }
+    75%{
+        left: -283.8%;
+    }
+    
+
+}
+.Contact {
+    height: 695px;
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+}
+
+    
+
+.contact-container{
+    height: 680px;
+    width: 100%;
+    
+    
+    margin-top: 10px;
+}
+.con-title{
+    height: 40px;
+    width: 30%;
+    
+    margin-left: 35%;
+    
+    margin-top: 20px;
+}
+.con-title h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content img{
+    height: 400px;
+    width: 30%;
+    margin-top: 80px;
+    margin-left: 10%;
+    display: flex;
+    border-radius: 50%;
+}
+.content{
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+}
+
+.content form{
+    height: 460px;
+    width: 25%;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 5%;
+    border-radius: 4px;
+    
+}
+.content form:hover{
+    background-color: rgb(122, 217, 184);
+}
+.content form .box{
+    width: 90%;
+    
+    padding: 12px;
+    font-size: 1rem;
+    color: black;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+.content form .bn{
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: bisque;
+    border-radius: 10px;
+} 
+
+.Blog{
+    height: 695px;
+    width: 100%;
+    
+    background-color: rgb(114, 159, 185);
+}
+.blog-card{
+    height: 393px;
+    width: 80%;
+    display: flex;
+    margin-left: 8%; 
+    
+}
+.blog-card1{
+    height: 200px;
+    width: 200px;
+    
+    background-color: rgb(218, 223, 224);
+    margin-left: 95px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.blog-card1 i{
+    
+    margin-top: 40px;
+    margin-left: 80px;
+    
+}
+.blog-card1 h1{
+    text-align: center;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+.blog-card1 p{
+    
+    
+    text-align: center;
+    margin-top: 10px;  
+}
+.blog-border{
+    border: 3px solid black;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+.blog-rights{
+    margin-top: 3rem;
+    text-align: center;
+}
